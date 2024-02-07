@@ -1,0 +1,55 @@
+.form-control {
+  margin-bottom: 10px;
+}
+
+.form-control label {
+  margin-bottom: 5px;
+  display: block;
+}
+
+.form-control input {
+  width: 200px;
+  padding: 8px 4px;
+  border-radius: 5px;
+  border-color: blue;
+  /* border: none; */
+}
+
+/* .form-control input::placeholder {
+  color: red;
+  font-size: 20px;
+} */
+
+/* pseudo element selector */
+.form-control input:focus {
+  outline-color: red;
+  /* border: none;
+  outline: none; */
+}
+
+.form-control-gender {
+  margin-bottom: 8px;
+}
+
+.form-control-gender div {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.form-control textarea {
+  width: 200px;
+  height: 100px;
+  resize: none;
+  padding: 5px;
+}
+
+#submit {
+  background-color: rgb(84, 84, 249);
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  font-weight: 500;
+  border-radius: 6px;
+  margin-top: 10px;
+}
