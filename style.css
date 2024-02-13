@@ -53,3 +53,20 @@
   border-radius: 6px;
   margin-top: 10px;
 }
+
+.container {
+  display: flex;
+  min-height: 100dvh;
+  justify-content: center;
+  align-items: center;
+}
+
+.form-wrapper {
+  background: peru;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+h1 {
+  color: white;
+}
